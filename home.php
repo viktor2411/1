@@ -1,4 +1,3 @@
-<?php
 if(isset($_POST['submitted'])) {
 		//Check to make sure that the name field is not empty
 		if(trim($_POST['contactName']) === '') {
