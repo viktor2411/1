@@ -5,7 +5,7 @@ if(isset($_POST['submitted'])) {
 			$nameError = __("You forgot to enter your name.", "site5framework");
 			$hasError = true;
 		} else {
-			$name = trim($_POST['contactName']);
+			$name = trim($_POST['contactName
 		}
 
 		//Check to make sure sure that a valid email address is submitted
