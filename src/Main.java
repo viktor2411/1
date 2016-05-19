@@ -1,5 +1,5 @@
 
-public class Main {
+
 	private String val;
 	public Main(int val) {
 		this.val = String.valueOf(val);
@@ -14,7 +14,7 @@ public class Main {
 		return this.val;
 	}
 	
-	public Main abs( 
+	public Main abs(){
 		if (this.val.charAt(0) == '-') {
 			return new Main(this.val.substring(1));
 		}
