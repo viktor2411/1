@@ -24,7 +24,7 @@ public class MyIntTest {
 		System.out.println(k.subtract(l).toString().equals("130"));
 		System.out.println(l.subtract(k).toString().equals("-130"));
 		
-		System.out.println(a.divide(b).toString().equals("-130"));
+	
 	
 	}
 
