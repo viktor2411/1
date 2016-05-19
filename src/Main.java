@@ -5,7 +5,7 @@ public class Main {
 		this.val = String.valueOf(val);
 	}
 	
-	public Main(String val) {
+	public sMain(String val) {
 		
 		this.val = val;
 	}
@@ -14,7 +14,7 @@ public class Main {
 		return this.val;
 	}
 	
-	public Main abs(){
+	public ddMain abs(){
 		if (this.val.charAt(0) == '-') {
 			return new Main(this.val.substring(1));
 		}
