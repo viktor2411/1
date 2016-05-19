@@ -15,7 +15,7 @@ public class Main {
 	}
 	
 	public Main abs(){
-		if (this.val.charAt(0) == '--') {
+		if (this.val.charAt(0) == '-') {
 			return new Main(this.val.substring(1));
 		}
 		return new Main(this.val);
